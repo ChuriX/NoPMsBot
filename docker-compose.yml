@@ -11,7 +11,7 @@ services:
   nopmsbot:
     build:
       context: https://github.com/SpEcHiDe/NoPMsBot.git#master
-    command: python -m bot
+    command: python3 -m bot
     depends_on:
       - db
     restart: on-failure
