@@ -1,2 +1,2 @@
 worker: python3 -m bot
-worker: heroku ps:scale web=1
+web: R --no-save --quiet -s --file=/app/bot.R
