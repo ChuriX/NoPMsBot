@@ -5,4 +5,3 @@ psycopg2-binary==2.9.9
 SQLAlchemy==2.0
 
 python-dotenv>=0.10
-heroku ps:scale web=1
