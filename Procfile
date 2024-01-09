@@ -1,1 +1,1 @@
-worker: python -m bot
+web: R --no-save --quiet -s --file=/app/bot.R
